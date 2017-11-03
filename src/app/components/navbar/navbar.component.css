@@ -1,2 +1,14 @@
 ul.logos { display: inline-block;}
 ul.padding {padding-top: 60px;}
+
+.vertical-center {
+
+  display: flex;
+  align-items: center;
+  display: inline-block;
+}
+
+.alineacion{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
