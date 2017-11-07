@@ -31,7 +31,7 @@
 				<header id="header" class="alt">
 					<nav id="nav">
 						<ul>
-							<li><a class="button-index">Iniciar Sesión</a></li>
+							<li><a class="button-index" [routerLink]="['navbar']">Iniciar Sesión</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -44,13 +44,14 @@
 						<li><a href="#" class="button-index">Registrarse</a></li>
 					</ul>
 				</section>
+				<a [routerLink]="['home']">Pene</a>
 
 			<!-- Main -->
 				<section id="main" class="container-index">
 
 
-					<section class="box .special-index features">
-						<div class=".features-index-row">
+					<section class="box-index .special-index features">
+						<div class=".features-index-row-index">
 							<section class="col s12 m6 l6">
 								<h3>Noticias</h3>
 								<marquee direction="up">
@@ -66,8 +67,8 @@
 						</div>
 					</section>
 
-					<section class="box .special-index features">
-						<div class=".features-index-row">
+					<section class="box-index .special-index features">
+						<div class=".features-index-row-index">
 							<section>
 								<span class="icon major fa-bolt accent2"></span>
 								<h3>Rapidez</h3>
@@ -79,7 +80,7 @@
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 							</section>
 						</div>
-						<div class=".features-index-row">
+						<div class=".features-index-row-index">
 							<section>
 								<span class="icon major fa-cloud accent4"></span>
 								<h3>Clima</h3>
@@ -93,10 +94,10 @@
 						</div>
 					</section>
 
-					<div class="row-index">
-						<div class="6u 12u(narrower)">
+					<div class="row-index-index">
+						<div class="6u 12u(narrow-indexer)">
 
-							<section class="box .special-index">
+							<section class="box-index .special-index">
 								<span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
 								<h3>Playas Santander</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
@@ -106,9 +107,9 @@
 							</section>
 
 						</div>
-						<div class="6u 12u(narrower)">
+						<div class="6u 12u(narrow-indexer)">
 
-							<section class="box .special-index">
+							<section class="box-index .special-index">
 								<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
 								<h3>Equipos de seguridad</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
@@ -129,7 +130,7 @@
 					<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
 
 					<form>
-						<div class="row-index uniform 50%">
+						<div class="row-index-index uniform 50%">
 							<div class="8u 12u(mobilep)">
 								<input type="email" name="email" id="email" placeholder="Email Address" />
 							</div>
