@@ -1,136 +1,112 @@
-<!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Playa Segura</title>
+		<title>Proyecto Playas</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
-		<link rel="manifest" href="/manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-		<meta name="theme-color" content="#ffffff">
+
 	</head>
-	<body class="landing-index">
+	<body class="landing">
 		<div id="page-wrapper">
 
+			<!-- Header -->
 				<header id="header" class="alt">
+					<h1><a href="index.html">Proyecto Playas</a> MEAN</h1>
 					<nav id="nav">
 						<ul>
-							<li><a class="button-index" [routerLink]="['navbar']">Iniciar Sesión</a></li>
+							<li><a class="button" [routerLink]="['home']">Iniciar Sesión</a></li>
 						</ul>
 					</nav>
 				</header>
 
 			<!-- Banner -->
 				<section id="banner">
-					<h2>¡Bienvenido a Playas!</h2>
-					<ul class="actions">
-						<li><a href="#" class="button-index .special-index">Entrar</a></li>
-						<li><a href="#" class="button-index">Registrarse</a></li>
-					</ul>
+					<h2>Proyecto Playas</h2>
+					<p>Version 0.01</p>
+					<!--<ul class="actions">
+						<li><a href="#" class="button special">Sign Up</a></li>
+						<li><a href="#" class="button">Learn More</a></li>
+					</ul>-->
+
 				</section>
-				<a [routerLink]="['home']">Pene</a>
 
 			<!-- Main -->
-				<section id="main" class="container-index">
+				<section id="main" class="container">
 
+					<!--<section class="box special">
+						<header class="major">
+							<h2>Introducing the ultimate mobile app
+							<br />
+							for doing stuff with your phone</h2>
+							<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
+							adipiscing nunc adipiscing. Condimentum turpis massa.</p>
+						</header>
+						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+					</section>-->
 
-					<section class="box-index .special-index features">
-						<div class=".features-index-row-index">
-							<section class="col s12 m6 l6">
-								<h3>Noticias</h3>
-								<marquee direction="up">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								</marquee>
-							</section>
-							<section class="col s12 m6 l6">
-								<h3>Anuncios</h3>
-								<marquee direction="up">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								</marquee>
-							</section>
-						</div>
-					</section>
-
-					<section class="box-index .special-index features">
-						<div class=".features-index-row-index">
+					<section class="box special features">
+						<div class="features-row">
 							<section>
 								<span class="icon major fa-bolt accent2"></span>
-								<h3>Rapidez</h3>
+								<h3>Magna etiam</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 							</section>
 							<section>
 								<span class="icon major fa-area-chart accent3"></span>
-								<h3>Datos</h3>
+								<h3>Ipsum dolor</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 							</section>
 						</div>
-						<div class=".features-index-row-index">
+						<div class="features-row">
 							<section>
 								<span class="icon major fa-cloud accent4"></span>
-								<h3>Clima</h3>
+								<h3>Sed feugiat</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 							</section>
 							<section>
 								<span class="icon major fa-lock accent5"></span>
-								<h3>Seguridad</h3>
+								<h3>Enim phasellus</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 							</section>
 						</div>
 					</section>
 
-					<div class="row-index-index">
-						<div class="6u 12u(narrow-indexer)">
+					<!--<div class="row">
+						<div class="6u 12u(narrower)">
 
-							<section class="box-index .special-index">
+							<section class="box special">
 								<span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
-								<h3>Playas Santander</h3>
+								<h3>Sed lorem adipiscing</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 								<ul class="actions">
-									<li><a href="#" class="button-index alt">Ver otras</a></li>
+									<li><a href="#" class="button alt">Learn More</a></li>
 								</ul>
 							</section>
 
 						</div>
-						<div class="6u 12u(narrow-indexer)">
+						<div class="6u 12u(narrower)">
 
-							<section class="box-index .special-index">
+							<section class="box special">
 								<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
-								<h3>Equipos de seguridad</h3>
+								<h3>Accumsan integer</h3>
 								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 								<ul class="actions">
-									<li><a href="#" class="button-index alt">Comprar</a></li>
+									<li><a href="#" class="button alt">Learn More</a></li>
 								</ul>
 							</section>
 
 						</div>
-					</div>
+					</div>-->
 
 				</section>
 
-			<!-- CTA
-				<section id="cta">
+			<!-- CTA -->
+				<!--<section id="cta">
 
 					<h2>Sign up for beta access</h2>
 					<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
 
 					<form>
-						<div class="row-index-index uniform 50%">
+						<div class="row uniform 50%">
 							<div class="8u 12u(mobilep)">
 								<input type="email" name="email" id="email" placeholder="Email Address" />
 							</div>
@@ -140,18 +116,26 @@
 						</div>
 					</form>
 
-				</section>
-
-			Linea horizontal donde se podria poner una form
-			-->
+				</section>-->
 
 			<!-- Footer -->
 				<footer id="footer">
+					<!--<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>-->
 					<div>
-							<a href="https://www.cantabria.es/" target="_blank"><img src="assets/images/gobcantabria.png"></a>
-							<a href="http://citican.org/" target="_blank"><img src="assets/images/citican.png"></a>
-							<a href="http://www.sodercan.es/" target="_blank"><img src="assets/images/sodercan.png"></a>
-							<a href="https://www.uneatlantico.es/" target="_blank"><img src="assets/images/Uneatlantico.png"></a>
+							<a href="https://www.cantabria.es/" target="_blank"><img src="../assets/images/gobcantabria.png"></a>
+							<a href="http://citican.org/" target="_blank"><img src="../assets/images/citican.png"></a>
+							<a href="http://www.sodercan.es/" target="_blank"><img src="../assets/images/sodercan.png"></a>
+							<a href="https://www.uneatlantico.es/" target="_blank"><img src="../assets/images/Uneatlantico.png"></a>
 				  </div>
 				</footer>
 
