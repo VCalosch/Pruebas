@@ -1795,7 +1795,7 @@
 		background: #f5f5f5;
 	}
 
-	body, input, select, textarea {
+	body, select, textarea {
 		color: #777;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 16pt;
@@ -3030,7 +3030,7 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("/assets/images/overlay.png"), url("/assets/images/banner.jpg");
+		background-image: url("/assets/images/overlay.png"), url("/assets/images/Playa01.png");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
