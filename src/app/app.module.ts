@@ -15,6 +15,10 @@ import { AdministradorComponent } from './components/roles/administrador/adminis
 import { LoginComponent } from './components/login/login.component';
 import { AgregarMarcadorComponent } from './components/acciones/agregar-marcador/agregar-marcador.component';
 import { AgregarUsuarioComponent } from './components/acciones/agregar-usuario/agregar-usuario.component';
+import { AdministradorFComponent } from './components/roles/administrador-f/administrador-f.component';
+import { PruebaComponent } from './components/acciones/prueba/prueba.component';
+import { CoordinadorComponent } from './components/roles/coordinador/coordinador.component';
+import { EncargadoPlayasComponent } from './components/roles/encargado-playas/encargado-playas.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +30,10 @@ import { AgregarUsuarioComponent } from './components/acciones/agregar-usuario/a
     LoginComponent,
     AgregarMarcadorComponent,
     AgregarUsuarioComponent,
+    AdministradorFComponent,
+    PruebaComponent,
+    CoordinadorComponent,
+    EncargadoPlayasComponent,
 
   ],
   imports: [
