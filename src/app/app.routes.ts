@@ -10,7 +10,7 @@ import { AdministradorFComponent } from './components/roles/administrador-f/admi
 import { PruebaComponent } from './components/acciones/prueba/prueba.component';
 import { CoordinadorComponent } from './components/roles/coordinador/coordinador.component';
 import { EncargadoPlayasComponent } from './components/roles/encargado-playas/encargado-playas.component';
-
+import { SocorristaComponent } from './components/roles/socorrista/socorrista.component';
 
 const app_routes: Routes = [
   { path: 'home', component: HomeComponent},
@@ -24,6 +24,7 @@ const app_routes: Routes = [
   {path: 'prueba', component: PruebaComponent},
   {path: 'coordinador', component: CoordinadorComponent},
   {path: 'encargado', component: EncargadoPlayasComponent},
+  {path: 'socorrista', component: SocorristaComponent},
 
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];

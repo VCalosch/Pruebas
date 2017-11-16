@@ -19,6 +19,7 @@ import { AdministradorFComponent } from './components/roles/administrador-f/admi
 import { PruebaComponent } from './components/acciones/prueba/prueba.component';
 import { CoordinadorComponent } from './components/roles/coordinador/coordinador.component';
 import { EncargadoPlayasComponent } from './components/roles/encargado-playas/encargado-playas.component';
+import { SocorristaComponent } from './components/roles/socorrista/socorrista.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { EncargadoPlayasComponent } from './components/roles/encargado-playas/en
     PruebaComponent,
     CoordinadorComponent,
     EncargadoPlayasComponent,
+    SocorristaComponent,
 
   ],
   imports: [
