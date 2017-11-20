@@ -21,6 +21,7 @@ import { CoordinadorComponent } from './components/roles/coordinador/coordinador
 import { EncargadoPlayasComponent } from './components/roles/encargado-playas/encargado-playas.component';
 import { SocorristaComponent } from './components/roles/socorrista/socorrista.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +37,7 @@ import { SocorristaComponent } from './components/roles/socorrista/socorrista.co
     CoordinadorComponent,
     EncargadoPlayasComponent,
     SocorristaComponent,
+
 
   ],
   imports: [

@@ -1,16 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+
 
 @Component({
   selector: 'app-socorrista',
   templateUrl: './socorrista.component.html',
   styleUrls: ['./socorrista.component.css'],
 
+
 })
-export class SocorristaComponent implements OnInit {
+export class SocorristaComponent {
 
   constructor() { }
 
-  ngOnInit() {
-  }
 
 }

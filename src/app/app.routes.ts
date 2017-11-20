@@ -12,6 +12,7 @@ import { CoordinadorComponent } from './components/roles/coordinador/coordinador
 import { EncargadoPlayasComponent } from './components/roles/encargado-playas/encargado-playas.component';
 import { SocorristaComponent } from './components/roles/socorrista/socorrista.component';
 
+
 const app_routes: Routes = [
   { path: 'home', component: HomeComponent},
   {path : 'menu', component: AdministradorComponent},
@@ -25,6 +26,7 @@ const app_routes: Routes = [
   {path: 'coordinador', component: CoordinadorComponent},
   {path: 'encargado', component: EncargadoPlayasComponent},
   {path: 'socorrista', component: SocorristaComponent},
+
 
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
